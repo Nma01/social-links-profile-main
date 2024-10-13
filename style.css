@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #000;
+  font-size: 14px;
+  height: 100vh;
+}
+
+.container {
+  width: 40%;
+  background: #000;
+  color: white;
+  margin: 0 auto;
+  
+}
+
+.profile-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 0 25px 0;
+}
+
+.profile-card img {
+  border-radius: 50%;
+  padding-bottom: 35px;
+}
+
+.name {
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  padding-bottom: 12px;
+}
+
+.location {
+  padding-bottom: 30px;
+  color: hsl(75, 94%, 57%);
+  letter-spacing: 0.6px;
+  font-weight: 500;
+}
+
+.profession {
+  color: hsl(0, 0%, 73%);
+  letter-spacing: 1.5px;
+}
+
+.social-links ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.links {
+  width: 50%;
+  background-color: hsl(0, 0%, 20%);
+  padding: 18px;
+  gap: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: 0.7px;
+}
+
+.links:active {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+
+.links:hover {
+  cursor: pointer;
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+
+/* footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  padding-top: 90px;
+}
+.attribution a {
+  color: hsl(75, 94%, 57%);
+}
+
+
+/* media query */
+@media only screen and (max-width: 500px) {
+    .container {
+        width: 100%;
+        margin: 0 ;
+    }
+    .links{
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .links{
+        width: 40%;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .links{
+        width: 30%;
+    }
+}
+
+@media (width: 1440px) {
+    .container {
+        width: 76%;
+        margin: 0 auto;
+    }
+    .links{
+        width: 30%;
+    }
+}
