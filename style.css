@@ -16,7 +16,6 @@ body {
   background: #000;
   color: white;
   margin: 0 auto;
-  
 }
 
 .profile-card {
@@ -68,6 +67,7 @@ body {
   text-align: center;
   font-weight: 800;
   letter-spacing: 0.7px;
+  color: white;
 }
 
 .links:active {
@@ -92,44 +92,43 @@ body {
   color: hsl(75, 94%, 57%);
 }
 
-
 /* media query */
 @media only screen and (max-width: 500px) {
-    .container {
-        width: 100%;
-        margin: 0 ;
-    }
-    .links{
-        width: 80%;
-    }
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+  .links {
+    width: 80%;
+  }
 }
 
-@media (min-width: 768px) and (max-width: 1000px) {
-    .container {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .links{
-        width: 40%;
-    }
+@media (min-width: 501px) and (max-width: 1000px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .links {
+    width: 50%;
+  }
 }
 
 @media (min-width: 1001px) and (max-width: 1024px) {
-    .container {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .links{
-        width: 30%;
-    }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .links {
+    width: 30%;
+  }
 }
 
 @media (width: 1440px) {
-    .container {
-        width: 76%;
-        margin: 0 auto;
-    }
-    .links{
-        width: 30%;
-    }
+  .container {
+    width: 76%;
+    margin: 0 auto;
+  }
+  .links {
+    width: 30%;
+  }
 }
